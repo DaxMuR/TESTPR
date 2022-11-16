@@ -1,1 +1,7 @@
 q, w, e = int(input("Введите 1 число: ")), int(input("Ввеидте 2 число: ")), int(input("Введите 3 число: "))
+b = (q + w + e) - min(q, w, e) - max(q, w, e)
+c = max(q, w, e)
+d = min(q, w, e)
+print(c)
+print(b)
+print(d)
